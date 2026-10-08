@@ -1,0 +1,44 @@
+{
+  "checks": [
+    "English Table 3 equals full-precision CSV rounded to 4 decimals",
+    "English Table 4 equals full-precision CSV rounded to 4 decimals",
+    "English Table 5 supports and metrics equal CSV",
+    "English Table 6 fold values, paired differences, means and sample SD equal CSV",
+    "All Chinese numeric result table cells match English",
+    "All four publication figure PNGs match embedded manuscript figure pixels exactly"
+  ],
+  "numeric_cells_checked": 101,
+  "figures": [
+    {
+      "figure": "Figure_1_acquisition_provenance.png",
+      "exact_pixel_matches": [
+        "word/media/image1.png"
+      ]
+    },
+    {
+      "figure": "Figure_2_framework.png",
+      "exact_pixel_matches": [
+        "word/media/image2.png"
+      ]
+    },
+    {
+      "figure": "Figure_3_classification_maps.png",
+      "exact_pixel_matches": [
+        "word/media/image3.png"
+      ]
+    },
+    {
+      "figure": "Figure_4_confusion_matrix.png",
+      "exact_pixel_matches": [
+        "word/media/image4.png"
+      ]
+    }
+  ],
+  "supplement_tables_checked": 11,
+  "rounded_numeric_values_checked": 451,
+  "all_checked_cells_match": true,
+  "manuscript_sha256": "838a109384b5f98a4cebea055d70cd3d9ab3a11f985788d80cf154dd9eb34c3d",
+  "supplement_sha256": "9b67f604a4eeb938dadf3f655474abf34968263faa86cf7dae0d15c1a91d9aa8",
+  "verification_date": "2026-10-08",
+  "scientific_arrays_or_code_changed": false
+}

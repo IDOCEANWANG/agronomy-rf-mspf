@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this data and code release if you use it. A journal publication and DOI have not been assigned at preparation."
+title: "Mapping Surface-Cover Components in Desert Steppe from UAV RGB Imagery Using Interpretable Features and Multiscale Superpixel Probability Fusion"
+type: dataset
+version: "2026-10-07-v2-audited-2026-10-08"
+authors:
+  - family-names: Wang
+    given-names: Haiyang
+  - family-names: Bi
+    given-names: Yuge
+  - family-names: Wang
+    given-names: Sen
+  - family-names: Xie
+    given-names: Wenye
+  - family-names: Du
+    given-names: Yingshuo
+  - family-names: Liu
+    given-names: Zhanzhao
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - UAV RGB imagery
+  - desert steppe
+  - random forest
+  - superpixels
+url: "https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0"
+repository-code: "https://github.com/IDOCEANWANG/agronomy-rf-mspf"
