@@ -37,8 +37,49 @@
   "supplement_tables_checked": 11,
   "rounded_numeric_values_checked": 451,
   "all_checked_cells_match": true,
-  "manuscript_sha256": "838a109384b5f98a4cebea055d70cd3d9ab3a11f985788d80cf154dd9eb34c3d",
-  "supplement_sha256": "9b67f604a4eeb938dadf3f655474abf34968263faa86cf7dae0d15c1a91d9aa8",
   "verification_date": "2026-10-08",
-  "scientific_arrays_or_code_changed": false
+  "manuscripts": {
+    "en": {
+      "input_sha256": "1b3974e7998a673a8bc9a748736dc5800fd0144326dacac0cf12facc8e21b791",
+      "output_filename": "Agronomy_RF_MSPF_Manuscript_20261008_v5.docx",
+      "output_sha256": "48b938b3664efb37eea89c8951738e1e64aaccd8414bc8d4ebaa6892ca6fa373",
+      "changed_paragraph_indices": [
+        12,
+        20,
+        26,
+        27,
+        98,
+        101
+      ],
+      "tables_unchanged": true,
+      "equations_unchanged": true,
+      "embedded_images_unchanged": true,
+      "reference_list_unchanged": true,
+      "reference_count": 32
+    },
+    "cn": {
+      "input_sha256": "0f1369232c67bcf29c2c715748d299ec04e57a8988afdd00344c091bef6d3083",
+      "output_filename": "中文全文审阅稿_20261008_v5.docx",
+      "output_sha256": "c05316767e2e27c18bcd842e462ba31655495e8d431591054047697125451c18",
+      "changed_paragraph_indices": [
+        12,
+        19,
+        96,
+        99
+      ],
+      "tables_unchanged": true,
+      "equations_unchanged": true,
+      "embedded_images_unchanged": true,
+      "reference_list_unchanged": true,
+      "reference_count": 32
+    }
+  },
+  "english_abstract_words_whitespace": 172,
+  "keyword_count": 5,
+  "supplement_sha256": "9b67f604a4eeb938dadf3f655474abf34968263faa86cf7dae0d15c1a91d9aa8",
+  "release_asset_sha256": "fa63d5c11c9b1b5d0068c8b739b4648881a95020624819b1565d5309de5851d7",
+  "release_digest_live_check_passed": true,
+  "scientific_arrays_or_code_changed": false,
+  "new_experiments_or_training_performed": false,
+  "scope": "Document-to-archive alignment and arithmetic consistency checks. Prior archived prediction/model checks are historical, not rerun in this editorial review."
 }

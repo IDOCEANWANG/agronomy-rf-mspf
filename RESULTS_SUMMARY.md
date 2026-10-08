@@ -1,6 +1,6 @@
 # Results summary for the Agronomy submission
 
-Updated 2026-10-07. Haiyang Wang, Yuge Bi, Sen Wang, Wenye Xie, Yingshuo Du, and Zhanzhao Liu; Inner Mongolia Agricultural University; correspondence: biyuge163@imau.edu.cn. Candidate deposit; repository https://github.com/IDOCEANWANG/agronomy-rf-mspf; fixed release https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0; no DOI assigned. Data and original results: CC BY 4.0; original code: MIT. Scientific scores are unchanged from the reconciled frozen experiments. “Proposed” in historical outputs means RF-MSPF, the consistency-weighted multiscale method.
+Documentation checked 2026-10-08. Haiyang Wang, Yuge Bi, Sen Wang, Wenye Xie, Yingshuo Du, and Zhanzhao Liu; Inner Mongolia Agricultural University; correspondence: biyuge163@imau.edu.cn. Public deposit; repository https://github.com/IDOCEANWANG/agronomy-rf-mspf; fixed release https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0; no DOI assigned. Data and original results: CC BY 4.0; original code: MIT. Scientific scores are unchanged from the reconciled frozen experiments. “Proposed” in historical outputs means RF-MSPF, the consistency-weighted multiscale method.
 
 ## Dataset and validation
 
@@ -61,15 +61,22 @@ Table S1 is extracted from all 12 original JPEGs. EXIF timestamps span 4–5 Jul
 
 The retained benchmark averages **0.794583 ± 0.045674 s** over 12 inferences (three repetitions on each of four patches) on Apple M4 with 16 GiB memory. It includes features, scaling, RF probabilities, fresh SLIC at three scales, fusion and argmax; it excludes image decoding and model loading. The supplied RF/scaler file is **27,157,561 bytes**. Benchmark timing was not remeasured for this revision and is hardware/load dependent.
 
-## Verification status and remaining author inputs
+## Verification status and publication metadata
 
 The release supplies 155 prediction archives: 124 for 31 feature combinations × four fixed validation patches; 19 for grouped validation; four for fixed spatial evaluation; four each for KNN and XGBoost. All carry the original reference labels. Fixed spatial archives contain all six methods; CV and feature archives contain RF and RF-MSPF. Other CV/feature spatial scores are verified against retained confusion matrices, with no claim that their absent per-pixel arrays were independently checked.
 
 KNN and XGBoost were refitted on 6 October 2026 using the unchanged protocol to complete their evaluation arrays, and exactly matched retained confusion counts. Baseline arrays use -1 outside evaluated annotation positions. Fixed RF inference and all six spatial variants match the retained results exactly. The release verification checks archive coverage, pixel arrays, confusion matrices, metric formulas, all 31 feature combinations, fold membership, original crops, duplicated data, signed labels and file hashes. Full CV/feature retraining and new timing were not performed in this revision. See VALIDATION_STATUS.json and research/outputs/prediction_archive_completion.json.
 
-The author confirmed CC BY 4.0 for original data/results and MIT for original code on 7 October 2026. Repository and fixed-release URLs remain to be assigned; a DOI is optional and must not be invented. After public deposit, update the citation and manuscript data availability with the actual fixed version. 
+The author confirmed CC BY 4.0 for original data/results and MIT for original code on 7 October 2026. The complete archive is publicly available in [release v1.0.0](https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0); no DOI has been assigned. The six authors confirmed their common affiliation as the College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University. Final journal submission remains subject to approval of the final manuscript. 
 
 
 ## Author revision 2 metadata clarification
 
 The author-reported approximate acquisition height is 10 m without a recoverable flight log or independent measurement; the reference is unknown. Original device values are retained separately and do not establish calibrated height above ground. Acquisition times are identified by the authors as Beijing time, while EXIF contains no time-zone field. Labels used self-developed software and auxiliary near-ground photographs, not hyperspectral data; neither the software nor auxiliary photographs is included. Independent annotation review was not performed. See dataset/AUTHOR_REPORTED_METADATA.json (or AUTHOR_REPORTED_METADATA.json from within dataset). All numerical classification results are unchanged.
+
+
+## Archive identity and manuscript alignment
+
+The complete release attachment is `Agronomy_RF_MSPF_Data_Code_Results_20261007_v2.zip` (249,752,786 bytes). Its SHA-256 is `fa63d5c11c9b1b5d0068c8b739b4648881a95020624819b1565d5309de5851d7`. The public GitHub asset digest matched the local archive on 8 October 2026. The repository root contains documentation; complete data and analysis code are in the release attachment.
+
+The bilingual v5 editorial revision retains the published numerical results. Table S1–S4 and figures are unchanged. This revision does not add training, fieldwork, independent annotation review, or new timing measurements. The archived benchmark, KNN/XGBoost archive-completion refits, and prior verification are historical procedures, not newly performed experiments in this editorial revision.

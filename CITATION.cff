@@ -2,20 +2,33 @@ cff-version: 1.2.0
 message: "Please cite this data and code release if you use it. A journal publication and DOI have not been assigned at preparation."
 title: "Mapping Surface-Cover Components in Desert Steppe from UAV RGB Imagery Using Interpretable Features and Multiscale Superpixel Probability Fusion"
 type: dataset
-version: "2026-10-07-v2-audited-2026-10-08"
+version: "1.0.0"
+date-released: "2026-10-08"
 authors:
   - family-names: Wang
     given-names: Haiyang
+    orcid: "https://orcid.org/0009-0004-5983-2757"
+    affiliation: "College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University"
   - family-names: Bi
     given-names: Yuge
+    orcid: "https://orcid.org/0000-0002-0677-0933"
+    affiliation: "College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University"
   - family-names: Wang
     given-names: Sen
+    orcid: "https://orcid.org/0009-0009-3210-8247"
+    affiliation: "College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University"
   - family-names: Xie
     given-names: Wenye
+    orcid: "https://orcid.org/0009-0001-9882-5486"
+    affiliation: "College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University"
   - family-names: Du
     given-names: Yingshuo
+    orcid: "https://orcid.org/0009-0005-9757-0628"
+    affiliation: "College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University"
   - family-names: Liu
     given-names: Zhanzhao
+    orcid: "https://orcid.org/0009-0002-1683-6630"
+    affiliation: "College of Mechanical and Electrical Engineering, Inner Mongolia Agricultural University"
 license:
   - CC-BY-4.0
   - MIT
