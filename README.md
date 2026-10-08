@@ -4,7 +4,7 @@ This repository browser copy accompanies the unpublished Agronomy submission man
 
 ## Download the complete dataset and runnable code
 
-Download **Agronomy_RF_MSPF_Data_Code_Results_20261007_v2.zip** and **ZIP_SHA256.txt** from this repository's **Releases** page. The fixed release is **[v1.0.0](https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0)**. The complete ZIP contains source JPEGs, analysis patches, annotations, numeric labels, models, predictions, publication figures, full-precision tables and verification scripts. This browser tree contains only small source, metadata and table files; cloning it alone is insufficient to reproduce the study. GitHub's automatically generated source-code ZIP also omits the complete dataset payload.
+Download **Agronomy_RF_MSPF_Data_Code_Results_20261007_v2.zip** from this repository's **Releases** page. The fixed release is **[v1.0.0](https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0)**. The complete ZIP contains source JPEGs, analysis patches, annotations, numeric labels, models, predictions, publication figures, full-precision tables and verification scripts. The main branch currently contains documentation and summaries; the complete research code and data are in the release attachment; cloning it alone is insufficient to reproduce the study. GitHub's automatically generated source-code ZIP also omits the complete dataset payload.
 
 The full ZIP was audited on 8 October 2026. Its historical filename is preserved to match the companion manuscript; use the SHA-256 in the same release to identify the exact archive. Do not mix it with the earlier 7 October preparation copy.
 
