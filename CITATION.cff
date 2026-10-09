@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite this data and code release if you use it. A journal publication and DOI have not been assigned at preparation."
+message: "Please cite this data and code package when using it."
 title: "Mapping Surface-Cover Components in Desert Steppe from UAV RGB Imagery Using Interpretable Features and Multiscale Superpixel Probability Fusion"
 type: dataset
-version: "1.0.0"
 date-released: "2026-10-08"
 authors:
   - family-names: Wang

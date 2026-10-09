@@ -1,116 +1,20 @@
 {
-  "checks": [
-    "English Table 3 equals full-precision CSV rounded to 4 decimals",
-    "English Table 4 equals full-precision CSV rounded to 4 decimals",
-    "English Table 5 supports and metrics equal CSV",
-    "English Table 6 fold values, paired differences, means and sample SD equal CSV",
-    "All Chinese numeric result table cells match English",
-    "All four publication figure PNGs match embedded manuscript figure pixels exactly"
+  "manuscript_numeric_cells_checked": 101,
+  "manuscript_matches_archived_csv": true,
+  "chinese_english_numeric_alignment": true,
+  "four_figures_match_archived_exports": [
+    "Figure_1_acquisition_provenance.png",
+    "Figure_2_framework.png",
+    "Figure_3_classification_maps.png",
+    "Figure_4_confusion_matrix.png"
   ],
-  "numeric_cells_checked": 101,
-  "figures": [
-    {
-      "figure": "Figure_1_acquisition_provenance.png",
-      "exact_pixel_matches": [
-        "word/media/image1.png"
-      ]
-    },
-    {
-      "figure": "Figure_2_framework.png",
-      "exact_pixel_matches": [
-        "word/media/image2.png"
-      ]
-    },
-    {
-      "figure": "Figure_3_classification_maps.png",
-      "exact_pixel_matches": [
-        "word/media/image3.png"
-      ]
-    },
-    {
-      "figure": "Figure_4_confusion_matrix.png",
-      "exact_pixel_matches": [
-        "word/media/image4.png"
-      ]
-    }
-  ],
-  "supplement_tables_checked": 11,
-  "rounded_numeric_values_checked": 451,
-  "all_checked_cells_match": true,
-  "verification_date": "2026-10-09",
-  "manuscripts": {
-    "cn": {
-      "filename": "中文全文审阅稿.docx",
-      "sha256": "4fe1415985ed325b970b65b1931208d6e4302ab3a5ab6706db4d3b8f47e63517",
-      "changed_paragraphs": [
-        12,
-        15,
-        16,
-        22,
-        52,
-        84,
-        93,
-        94,
-        95,
-        97
-      ]
-    },
-    "en": {
-      "filename": "Agronomy_RF_MSPF_Manuscript.docx",
-      "sha256": "564af1f359b96a412146fee72aa6ac301fe34b9fdb80e41120051599b8b4ba6d",
-      "changed_paragraphs": [
-        89,
-        90,
-        91,
-        93
-      ]
-    }
+  "current_file_hashes": {
+    "Agronomy_中文校对稿.docx": "2066ff86679ed035c4d2ac58f1633a868a3c8966872372d2ab357c951c336fb1",
+    "Agronomy_Supplementary_Materials.docx": "6de2f220d771638e37d1532e8c1565408cc6c59409207cedc6ab992b8c12528e",
+    "Agronomy_补充材料中文校对稿.docx": "0d64a8769bb99b4c60c12a2f59f4f5d1e0ab56dfc0c195779a518d614be001f0",
+    "Agronomy_Manuscript.docx": "c7407e230641866903419277c8b03fb2f9d3443339663bf8b122a8dc2a2af31f"
   },
-  "scientific_arrays_or_code_changed": false,
-  "new_training_performed": false,
-  "release_archive_sha256": "fa63d5c11c9b1b5d0068c8b739b4648881a95020624819b1565d5309de5851d7",
-  "independent_saved_results_verification": {
-    "status": "passed",
-    "analysis_patches": 19,
-    "source_images": 12,
-    "used_source_groups": 9,
-    "valid_pixels": 335675,
-    "class_counts": [
-      113855,
-      138365,
-      29023,
-      54432
-    ],
-    "saved_prediction_files_checked": 155,
-    "confusion_metric_rows_checked": 224,
-    "supplementary_metric_rows_checked": 87,
-    "all_31_feature_combinations_checked": true,
-    "grouped_folds_regenerated": false,
-    "source_group_membership_checked": true,
-    "source_crops_exact": true,
-    "rf_bundle_inference_exact": null,
-    "full_retraining_in_this_audit": false,
-    "manifest_entries_checked": 827,
-    "fixed_spatial_inference_methods": 0,
-    "fixed_baseline_prediction_scope": "annotated pixels only; -1 elsewhere",
-    "grouped_cv_source_groups_disjoint": true,
-    "fixed_development_shared_source_groups": [
-      "DJI_0746.JPG",
-      "DJI_0750.JPG",
-      "DJI_0757.JPG"
-    ],
-    "limitations": "CV and feature-combination archives supply RF and RF-MSPF per-pixel predictions. Other spatial variants in those experiments are checked against retained confusion counts and metric tables; their per-pixel arrays are not supplied. KNN and XGBoost archive completion refits are recorded separately; this checker does not retrain models."
-  },
-  "additional_manuscript_checks": {
-    "cn": {
-      "all_four_figures_match": true,
-      "all_32_reference_numbers_cited": true,
-      "abstract_words": null
-    },
-    "en": {
-      "all_four_figures_match": true,
-      "all_32_reference_numbers_cited": true,
-      "abstract_words": 173
-    }
-  }
+  "supplementary_tables_checked": 11,
+  "supplementary_numeric_values_checked": 451,
+  "scientific_data_and_analysis_code": "Preserved byte for byte from the downloaded public archive"
 }
