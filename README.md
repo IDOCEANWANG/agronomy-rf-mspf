@@ -1,12 +1,12 @@
 # Mapping Surface-Cover Components in Desert Steppe from UAV RGB Imagery Using Interpretable Features and Multiscale Superpixel Probability Fusion
 
-This repository browser copy accompanies the unpublished Agronomy submission manuscript by Haiyang Wang, Yuge Bi, Sen Wang, Wenye Xie, Yingshuo Du, and Zhanzhao Liu. Prepared and checked on 8 October 2026. Correspondence: biyuge163@imau.edu.cn.
+This repository accompanies the unpublished Agronomy submission manuscript by Haiyang Wang, Yuge Bi, Sen Wang, Wenye Xie, Yingshuo Du, and Zhanzhao Liu. Documentation checked on 9 October 2026. Correspondence: biyuge163@imau.edu.cn.
 
 ## Download the complete dataset and runnable code
 
-Download **Agronomy_RF_MSPF_Data_Code_Results_20261007_v2.zip** from this repository's **Releases** page. The fixed release is **[v1.0.0](https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases/tag/v1.0.0)**. The complete ZIP contains source JPEGs, analysis patches, annotations, numeric labels, models, predictions, publication figures, full-precision tables and verification scripts. The main branch currently contains documentation and summaries; the complete research code and data are in the release attachment; cloning it alone is insufficient to reproduce the study. GitHub's automatically generated source-code ZIP also omits the complete dataset payload.
+Download the **complete research archive** from this repository's **Releases** page. The archive is available at **[Releases](https://github.com/IDOCEANWANG/agronomy-rf-mspf/releases)**. The complete ZIP contains source JPEGs, analysis patches, annotations, numeric labels, models, predictions, publication figures, full-precision tables and verification scripts. The main branch currently contains documentation and summaries; the complete research code and data are in the release attachment; cloning it alone is insufficient to reproduce the study. GitHub's automatically generated source-code ZIP also omits the complete dataset payload.
 
-The full ZIP was audited on 8 October 2026. Its historical filename is preserved to match the companion manuscript; use the SHA-256 in the same release to identify the exact archive. Do not mix it with the earlier 7 October preparation copy.
+The complete archive was checked on 9 October 2026. Use the SHA-256 displayed on the Releases page to identify it.
 
 ## Reproduction
 
